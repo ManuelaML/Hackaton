@@ -1,6 +1,48 @@
-.contenedor1{
+.contenedor1 {
     display: flex;
     padding: 0 10%;
+    margin-bottom: 100px;
 }
-/* En el archivo nav.css */
+
+
+.contenedor1-img img {
+    border-radius: 30% 70% 70% 30%;
+}
+
+.contenedor1-historia h2 {
+    font-size: 50px;
+    margin-top: 30%;
+}
+
+
+.contenedor-p {
+    width: 70%;
+}
+
+
+.contenedor2 {
+    display: flex;
+    padding: 0 10%;
+    margin-bottom: 100px;
+}
+
+.titulo-h2 {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+.contenedor2-img {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.persona1, .persona2, .persona3 {
+    width: 200px;
+    flex-grow: 1; 
+    margin-right: 20px; 
+    border: 2px solid black; /* Grosor del borde y tipo de borde */
+    border-radius: 10%;
+}
 

@@ -14,7 +14,6 @@
   }
   
   .elementos-nav {
-    color: white;
     align-items: center;
     margin-left: auto;
     margin-top: 3%;
@@ -28,6 +27,8 @@
   }
   
   .elementos-nav a {
+    text-decoration: none;
+    color: white;
     margin-right: 30px;
     font-size: 20px;
   }
