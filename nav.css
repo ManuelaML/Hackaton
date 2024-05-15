@@ -1,0 +1,49 @@
+.contenedor-nav {
+  display: flex;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+.contenedor-nav img {
+  margin: 20px 40px;
+}
+
+.img-logo {
+  width: 80px;
+  padding: 0px;
+}
+
+.elementos-nav {
+  align-items: center;
+  margin-left: auto;
+  margin-top: 3%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.elementos-nav :hover {
+  color: #219fdf;
+  font-weight: bolder;
+}
+
+.elementos-nav a {
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.img-carrito {
+  margin-right: 20%;
+}
+
+#carrito img {
+  margin-left: auto;
+  margin-top: 60px;
+  width: 30px;
+  cursor: pointer;
+}
+
+#carrito :hover {
+  transform: scale(1.5);
+}
