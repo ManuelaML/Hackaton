@@ -1,1 +1,1 @@
-profes hola, queriamos comentar que cuando Manu intentaba hacer push le salía que habian cambios remotos y rechazaba el commit siempre. Intentamos borrando todo de la master,subiendolo a otra rama y sigue pasando. Seguimos revisando que puede ser pero nuestra pagina está toda en el compu de Manu ya funcional desde hace más de 1h :(
+# Hackaton
