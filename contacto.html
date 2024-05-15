@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="titulo">Formulario de contacto</h1>
+    </header>
+    <section class="contenedor">
+      <form
+        class="formulario"
+        id="myForm"
+        action="https://formspree.io/f/mdoqyvyg"
+        method="post"
+        onsubmit="return validarFormulario()"
+      >
+        <div class="div-example">
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Nombre"
+            required
+          />
+          <span id="errorNombre" class="error"></span>
+        </div>
+        <div class="div-example">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <span id="errorEmail" class="error"></span>
+        </div>
+        <div class="div-example">
+          <input
+            type="tel"
+            name="telefono"
+            id="telefono"
+            placeholder="Teléfono"
+            pattern="[0-9]{3}[-\s]?[0-9]{3}[-\s]?[0-9]{4}"
+            required
+          />
+          <span id="errorTelefono" class="error"></span>
+        </div>
+        <div class="comentarios">
+          <label for="comentario">Déjanos tus comentarios</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            rows="5"
+            cols="30"
+            required
+          ></textarea>
+          <span id="errorComentario" class="error"></span>
+        </div>
+        <div class="terminos">
+          <label for="terminos">Acepto términos y condiciones</label>
+          <input type="checkbox" name="terminos" id="terminos" required />
+          <span id="errorTerminos" class="error"></span>
+        </div>
+        <div class="boton">
+          <button type="reset">Resetear</button>
+          <button type="submit">Enviar</button>
+          <button type="button" onclick="cancelar()">Cancelar</button>
+        </div>
+      </form>
+    </section>
+    <script src="formulario.js"></script>
+  </body>
+</html>
